@@ -9,7 +9,7 @@ ap.add_argument("--results_header", required=False, default=36,
 ap.add_argument("--results_fields", required=False, help="Python list of field names in order for the voter data file",
                 default=["Code", "Name", "Votes"])
 ap.add_argument("--votes", required=False, default="poll-votes.csv", help="Output file path and name.")
-ap.add_argument("--votes_header", required=False, default="36", help="Header value for column names")
+ap.add_argument("--votes_header", required=False, default="5", help="Header value for column names")
 ap.add_argument("--votes_fields", required=False,
                 default=["ID", "Voter", "Email", "Poll", "Choice", "Date", "LoginSource", "Browser", "Mobile", "Code"])
 args = vars(ap.parse_args())
