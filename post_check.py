@@ -40,7 +40,7 @@ for index, row in df_poll_votes.iterrows():
 
 print(f"Invalid records: ")
 print(f"Total invalid records: {len(invalid_records)}")
-# [print(x) for x in invalid_records]
+
 print(f"Total valid records: {len(valid_records)}")
 
 
